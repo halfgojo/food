@@ -549,7 +549,7 @@ class _SignUpPageState extends State<SignUpPage>
                           controller: passwordController,
                           obscureText: obscurePassword,
                           decoration: InputDecoration(
-                            labelText: 'PASSWORD',
+                            labelText: 'Enter Password',
                             suffixIcon: IconButton(
                               icon: Icon(obscurePassword
                                   ? Icons.visibility_off

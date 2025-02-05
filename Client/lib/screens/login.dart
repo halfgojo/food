@@ -192,7 +192,7 @@ class _LoginPageState extends State<LoginPage> {
                             controller: passwordController,
                             obscureText: obscurePassword,
                             decoration: InputDecoration(
-                              labelText: 'PASSWORD',
+                              labelText: 'Enter Password',
                               labelStyle: kBodyMedium.bodyMedium,
                               suffixIcon: IconButton(
                                 icon: Icon(obscurePassword ? Icons.visibility_off : Icons.visibility),
